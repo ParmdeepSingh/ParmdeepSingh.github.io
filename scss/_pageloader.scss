@@ -1,59 +1,59 @@
-.loader.spinner:before {
-    width: 150px;
-    height: 150px;
-    border-color: #D11E78;
-    top: 0px;
-    left: 0px;
-    animation: rotate .5s reverse 0s infinite;
-}
+// .loader.spinner:before {
+//     width: 150px;
+//     height: 150px;
+//     border-color: #D11E78;
+//     top: 0px;
+//     left: 0px;
+//     animation: rotate .5s reverse 0s infinite;
+// }
 
-.loader.spinner:after {
-    width: 300px;
-    height: 300px;
-    border-color: #D11E78;
-    top: 0px;
-    left: 0px;
-    opacity: 0;
-    animation: rotate .5s linear 0.5s infinite;
-}
-.loader {
-    margin: auto;
-    top: 30%;
-    position: relative;
-    width: 125px;
-    height: 125px;
-}
-.loader:before,
-.loader:after {
-    content: "";
-    display: block;
-    position: absolute;
-    border-width: 30px;
-    border-style: solid;
-    border-radius: 50%;
-}
-@keyframes rotate {
-    0% {
-        transform: scale(0);
-        opacity: 0;
-    }
-    25% {
-        transform: scale(0.3);
-        opacity: .5;
-    }
-    100% {
-        transform: scale(1);
-        opacity: 0;
-    }
-}
-#loadingDiv {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #B6E3E9;
-    z-index: 9999999;
-}
+// .loader.spinner:after {
+//     width: 300px;
+//     height: 300px;
+//     border-color: #D11E78;
+//     top: 0px;
+//     left: 0px;
+//     opacity: 0;
+//     animation: rotate .5s linear 0.5s infinite;
+// }
+// .loader {
+//     margin: auto;
+//     top: 30%;
+//     position: relative;
+//     width: 125px;
+//     height: 125px;
+// }
+// .loader:before,
+// .loader:after {
+//     content: "";
+//     display: block;
+//     position: absolute;
+//     border-width: 30px;
+//     border-style: solid;
+//     border-radius: 50%;
+// }
+// @keyframes rotate {
+//     0% {
+//         transform: scale(0);
+//         opacity: 0;
+//     }
+//     25% {
+//         transform: scale(0.3);
+//         opacity: .5;
+//     }
+//     100% {
+//         transform: scale(1);
+//         opacity: 0;
+//     }
+// }
+// #loadingDiv {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     bottom: 0;
+//     right: 0;
+//     width: 100%;
+//     height: 100%;
+//     background-color: #B6E3E9;
+//     z-index: 9999999;
+// }
